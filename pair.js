@@ -60,13 +60,13 @@ router.get('/', async (req, res) => {
                     try {
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        const md = "White-MD~" + string_session;
+                        const md = "RAHEEM-XMD~" + string_session;
 
                         const codeMsg = await sock.sendMessage(sock.user.id, { text: md });
 
-                        const desc = `*Hey there, WHITESHADOW-M User!* 👋🏻
+                        const desc = `*Hey there, RAHEEM-XMD- User!* 👋🏻
 
-Thanks for using WHITESHADOW-MD — your session has been successfully created!
+Thanks for using RAHEEM-XMD-3 — your session has been successfully created!
 
 🔐 Session ID: Sent above
 ⚠️ Keep it safe! Do NOT share this ID with anyone.
@@ -75,24 +75,24 @@ Thanks for using WHITESHADOW-MD — your session has been successfully created!
 
 ✅ Stay Updated:
 Join our official WhatsApp Channel:
-https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13
+https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
 
 💻 Source Code:
 Fork & explore the project on GitHub:
-https://github.com/cnw-db/WHITESHADOW-MD
+https://github.com/Raheem-cm/RAHEEM-XMD-3
 
 ——————
 
-> © Powered by WHITESHADOW
+> © Powered by XMD-3
 Stay WITH US. ✌🏻`;
 
                         await sock.sendMessage(sock.user.id, {
                             text: desc,
                             contextInfo: {
                                 externalAdReply: {
-                                    title: "WHITESHADOW",
-                                    thumbnailUrl: "https://files.catbox.moe/8g467d.jpg",
-                                    sourceUrl: "https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13",
+                                    title: "RAHEEM-XMD-3",
+                                    thumbnailUrl: "https://files.catbox.moe/9ztu0z.jpg",
+                                    sourceUrl: "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r",
                                     mediaType: 1,
                                     renderLargerThumbnail: true
                                 }
