@@ -70,11 +70,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "White-MD~" + string_session;
+                        let md = "RAHEEM-XMD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, WHITESHADOW-MD User!* 👋🏻
+                        let desc = `*Hey there, RAHEEM-XMD-3 User!* 👋🏻
 
-Thanks for using *WHITESHADOW MD* — your session has been successfully created!
+Thanks for using *RAHEEM XMD 3* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -83,22 +83,22 @@ Thanks for using *WHITESHADOW MD* — your session has been successfully created
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13
+https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/ZIGGY-OS/WHITESHADOW-MD
+https://github.com/Raheem-cm/RAHEEM-XMD-3
 
 ——————
 
-> *© Powered by WHITESHADOW*
+> *© Powered by RAHEEM-XMD-3*
 Stay WHITH US. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "WHITESHADOW-MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/8g467d.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13",
+title: "RAHEEM-XMD-3 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/9ztu0z.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,9 +107,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, White-MD User!* 👋🏻
+                            let desc = `*Hey there, XMD-3 User!* 👋🏻
 
-Thanks for using *WHITESHADOW-MD* — your session has been successfully created!
+Thanks for using *RHEEM-XMD-3* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -118,21 +118,21 @@ Thanks for using *WHITESHADOW-MD* — your session has been successfully created
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13
+https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/Ziggy-os/WHITESHADOW-MD 
+https://github.com/Raheem-cm/RAHEEM-XMD-
 
-> *© Powered by WHITESHADOW*
+> *© Powered by RAHEEM-XMD-3*
 Stay WITH US. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "WHITESHADOW-MD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/8g467d.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vak4dFAHQbSBzyxlGG13",
+title: "RAHEEM-XMD-3 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+thumbnailUrl: "https://files.catbox.moe/9ztu0z.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
