@@ -40,9 +40,9 @@ app.get('/', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ WHITESHADOW-MD Server Running
+✅ RAHEEM-XMD-3 Server Running
 🌐 URL: http://localhost:${PORT}
-⭐ Don't forget to star WHITESHADOW-MD repo!
+⭐ Don't forget to star RAHEEM-XMD- repo!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
   `);
 });
